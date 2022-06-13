@@ -1,0 +1,136 @@
+body{
+    text-align: center;
+    margin: 0;
+    font-family:cursive;
+    color: #40514E;
+}
+h1{
+    /*width: 10;   when not inline block  css ndn    100% = 16px = 1em  em hoy to parent ma change kariae thay  px ma nahi*/
+    margin: 50px auto 0 auto;
+    font-family:cursive;
+    font-size: 5.626rem;
+    color: #66BFBF;
+    line-height: 1.5;
+}
+h2{
+    font-size: 2.5rem;
+    font-family:sans-serif;
+    color: #66BFBF;
+    font-weight: normal;
+}
+h3{
+color: #40514E;
+font-family: sans-serif;
+}
+p{
+    font-family:'monospace',sans-serif;
+    line-height: 2;
+   
+    
+}
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    width: 10%;
+    border-color: #EAF6F6;
+    border-width: 6px;
+    margin: 50px auto;
+}
+.intro
+{
+    width: 30%;
+    margin: auto;
+}
+.skill1
+{
+width: 25%;
+float:left;
+margin-right: 30px;
+}
+.skill2
+{
+width: 25%;
+float:right;
+}
+.skill-row
+{
+    width:50%;
+    margin: 100px auto 100px auto;
+    text-align:left;
+}
+.sehading{
+    margin-top: 20px;
+    font-family: serif;
+}
+
+.top-container{
+    background-color: #CDF0EA;
+    position: relative;
+    padding-top: 100px;
+    
+}
+.mountain
+{
+    height: 400px;
+}
+.middle-container {
+    margin: 100px 0 ;
+}
+.secondmiddle{
+    font-family: serif;
+    margin: 100px auto 100px auto;
+
+}
+.bottom-container {
+ background-color: #66BFBF;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.bottom-cloud
+{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+    height: 50px;
+}
+.top-cloud {
+    position:absolute;
+   right: 300px;
+   top: 30px;
+   height: 50px;
+}
+.contect-message{
+    width: 30%;
+    margin: 40px auto 40px;
+}
+.btn {
+    /*  button creator   giphy */
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'monospace', sans-serif;   
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+a{
+    margin:10px 20px;
+    text-decoration: none;
+}
