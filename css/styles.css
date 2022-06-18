@@ -12,6 +12,13 @@ h1{
     color: #66BFBF;
     line-height: 1.5;
 }
+.skills
+{
+    background-color: #CDF0EA;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
 .responsive {
     width: 100%;
     max-width: 500px;
