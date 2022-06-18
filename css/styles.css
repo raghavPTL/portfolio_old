@@ -12,6 +12,11 @@ h1{
     color: #66BFBF;
     line-height: 1.5;
 }
+.responsive {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
 h2{
     font-size: 2.5rem;
     font-family:sans-serif;
