@@ -12,6 +12,26 @@ h1{
     color: #66BFBF;
     line-height: 1.5;
 }
+#title {
+background: #30e3cb;
+    font-family: 'Montserrat', sans-serif;
+   color: #40514E;
+    font-weight: bolder;   
+}
+/*  navbar brand */
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.nav-item {
+    padding: 0 20px;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
 .skills
 {
     background-color: #CDF0EA;
